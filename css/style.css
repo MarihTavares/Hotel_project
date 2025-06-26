@@ -74,7 +74,7 @@ nav li:hover{
 .nav_button{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 2em;
 }
 
 .nav_button button{
@@ -103,7 +103,28 @@ nav li:hover{
     color: var(--cor-principal);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 782px) {
+    
+    nav{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .nav_logo{
+        gap: 0;
+    }
+
+    nav ul{
+        gap: 1em;
+    }
+
+    .nav_button{
+        gap: 0.5em;
+    }
+
+}
+
+@media (max-width: 639px) {
 
     nav{margin-top: 5%;
         flex-direction: column;
