@@ -85,6 +85,7 @@ nav li:hover{
     font-family: var(--fonte-titulo);
     color: var(--cor-principal);
     font-size: 15px;
+    cursor: pointer;
 }
 
 .nav_button #button_login:hover{
@@ -100,4 +101,23 @@ nav li:hover{
 .nav_button #button_cadastro:hover{
     background-color: var(--cor-clara);
     color: var(--cor-principal);
+}
+
+@media (max-width: 480px) {
+
+    nav{margin-top: 5%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav_logo{
+        width: 10em;
+    }
+
+    .nav_button button{
+        height: 2em;
+    }
+    
 }
