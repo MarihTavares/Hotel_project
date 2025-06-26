@@ -81,8 +81,23 @@ nav li:hover{
     width: 8em;
     height: 40%;
     border-radius: 999px; 
-    border: none;
+    border: 1px solid #152b3c;
     font-family: var(--fonte-titulo);
     color: var(--cor-principal);
     font-size: 15px;
+}
+
+.nav_button #button_login:hover{
+    background-color: var(--cor-detalhes);
+    color: var(--cor-clara);
+}
+
+.nav_button #button_cadastro{
+    background-color: var(--cor-detalhes);
+    color: var(--cor-clara);
+}
+
+.nav_button #button_cadastro:hover{
+    background-color: var(--cor-clara);
+    color: var(--cor-principal);
 }
