@@ -153,6 +153,7 @@ main::before {
 
 .banner_forms{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     width: 100%;
@@ -182,6 +183,29 @@ input[type="number"]::-webkit-inner-spin-button {
 .banner_forms #forms_button:hover{
     background-color: var(--cor-clara);
     color: var(--cor-detalhes);
+}
+
+.banner_forms #forms_button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.diferencias{
+    height: 30em;
+}
+
+.card{
+    display: flex;
+    width: 70em;
+    background-color: #152b3c;
+    margin: 4em auto;
+    margin-bottom: 2em;
+    height: 25em;
+}
+
+.card img{
+    width: 30%;
 }
 
 @media (max-width: 782px) {
@@ -251,8 +275,6 @@ input[type="number"]::-webkit-inner-spin-button {
     }
 
     .banner_forms{
-        flex-wrap: wrap;
-        justify-content: center;
         gap: 10px;
         padding-bottom: 3%;
     }
