@@ -227,6 +227,59 @@ input[type="number"]::-webkit-inner-spin-button {
     flex-direction: column;
 }
 
+.card_informacoes .card_texto h3{
+    margin: 1em 0 0 0.3em;
+    font-size: 35px;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-detalhes);
+}
+
+.card_texto #card_local,#card_desc{
+    font-size: 15px;
+    font-family: var(--fonte-texto);
+    color: var(--cor-principal);
+}
+
+.card_texto #card_local{
+    margin: 0 0 0.4em 0.8em;
+}
+
+.card_texto #card_desc{
+    margin: 1.5em 1em ;
+}
+
+.card_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 1em 2em 1em;
+}
+
+.card_info .info_avaliacao{
+    display: inline;
+    font-size: 15px;
+}
+.card_info .info_avaliacao .fa-solid{
+    color: #dfc222;
+}
+
+.card_info button{
+    padding: 1em;
+    border-radius: 10px;
+    background-color: var(--cor-detalhes);
+    color: var(--cor-clara);
+    border: var(--cor-detalhes) 2px solid;
+    cursor: pointer;
+}
+
+.card_info button:hover{
+    border: var(--cor-detalhes) 2px solid;
+    background-color: var(--cor-clara);
+    color: var(--cor-principal);
+
+}
+
 @media (max-width: 782px) {
     
     nav{
