@@ -201,8 +201,7 @@ input[type="number"]::-webkit-inner-spin-button {
     width: 70em;
     background-color: var(--cor-clara);
     box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    margin: 4em auto;
-    margin-bottom: 2em;
+    margin: 2em auto;
     height: 25em;
     border-radius: 40px;
 }
@@ -308,6 +307,41 @@ input[type="number"]::-webkit-inner-spin-button {
         justify-content: center;
         gap: 10px;
         padding-bottom: 3%;
+    }
+
+    .card{
+        flex-direction: column;
+        width: 30em;
+        margin: 2em auto;
+        height: 28em;
+        border-radius: 40px;
+    }
+
+    .card img{
+        width: 100%;
+        height: 50% ;
+        border-radius: 40px 40px 0 0;
+    }
+     
+    .card .card_informacoes{
+        padding: 0.5em;
+    }
+
+    .card_informacoes .card_texto h3{
+        margin: 0 0 0 0.3em;
+        font-size: 30px;
+    }
+
+    .card_texto #card_local,#card_desc{
+        font-size: 12px;
+    }
+
+    .card_texto #card_local{
+        margin: 0 0 0 0.8em;
+    }
+
+    .card_texto #card_desc{
+        margin: 0.5em 1em ;
     }
 
 }
