@@ -280,7 +280,20 @@ input[type="number"]::-webkit-inner-spin-button {
 
 }
 
-@media (max-width: 782px) {
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background-color: var(--cor-detalhes);
+    color: var(--cor-clara);
+}
+
+footer .footer_texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 850px) {
     
     nav{
         width: 100%;
