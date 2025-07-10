@@ -3,6 +3,7 @@
     --cor-forte: #314c53;
     --cor-clara: #ececdd;
     --cor-detalhes: #152b3c;
+    --cor-cinza: #707070;
 
     --fonte-titulo: "Open Sans", sans-serif;
     --fonte-texto: 'Merriweather', serif;
@@ -291,6 +292,25 @@ footer{
 footer .footer_texto{
     display: flex;
     justify-content: space-between;
+}
+
+.footer_copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.footer_copyright span{
+    color: var(--cor-cinza);
+}
+
+.footer_copyright hr {
+    margin: 0 auto;
+    width: 50%;
+    height: 1px;
+    background-color: var(--cor-cinza);
+    border: none;
 }
 
 @media (max-width: 850px) {
