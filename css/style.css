@@ -286,12 +286,66 @@ footer{
     flex-direction: column;
     padding: 2em;
     background-color: var(--cor-detalhes);
-    color: var(--cor-clara);
+    color: var(--cor-cinza);
 }
 
 footer .footer_texto{
+    margin: 0 auto;
+    width: 70%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 1em;
+    gap: 0;
+}
+
+#slogan_logo .fa-hotel,#logo_nome{
+    font-size: 25px;
+}
+
+#slogan_logo #logo_nome{
+    font-family: var(--fonte-titulo);
+}
+
+.footer_slogan p{
+    font-family: var(--fonte-texto);
+    font-size: 13px;
+    margin-top: 0.5em;
+}
+
+.footer_texto .footer_menu ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   text-decoration: underline;
+   font-family: var(--fonte-texto);
+   font-size: 15px;
+}
+
+.footer_texto .footer_menu li:hover{
+    color: var(--cor-clara);
+    cursor: pointer;
+}
+
+.footer_texto .footer_medias ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1em;
+    font-family: var(--fonte-texto);
+    margin-top: 0.5em;
+}
+
+.footer_texto .footer_medias li{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.footer_texto .footer_medias li:hover{
+    color: var(--cor-clara);
+    cursor: pointer;
 }
 
 .footer_copyright{
@@ -299,10 +353,6 @@ footer .footer_texto{
     flex-direction: column;
     align-items: center;
     gap: 0.5em;
-}
-
-.footer_copyright span{
-    color: var(--cor-cinza);
 }
 
 .footer_copyright hr {
