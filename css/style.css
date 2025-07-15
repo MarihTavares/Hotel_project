@@ -291,7 +291,7 @@ footer{
 
 footer .footer_texto{
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -436,6 +436,21 @@ footer .footer_texto{
         padding: 0.8em;
     }
 
+    footer .footer_texto{
+        width: 70%;
+    }
+
+    #slogan_logo .fa-hotel,#logo_nome{
+        font-size: 18px;
+    }
+
+    .footer_texto .footer_menu ul{
+        font-size: 10px;
+    }
+
+    .footer_texto .footer_medias ul{
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 639px) {
@@ -450,6 +465,7 @@ footer .footer_texto{
 
     .nav_logo{
         width: 10em;
+        gap: 1em;
     }
 
     .nav_button button{
@@ -475,6 +491,22 @@ footer .footer_texto{
     .banner_forms{
         gap: 10px;
         padding-bottom: 3%;
+    }
+
+    footer .footer_texto{
+        width: 100%;
+    }
+
+    #slogan_logo .fa-hotel,#logo_nome{
+        font-size: 18px;
+    }
+
+    .footer_texto .footer_menu ul{
+        font-size: 10px;
+    }
+
+    .footer_texto .footer_medias ul{
+        font-size: 12px;
     }
 
 }
